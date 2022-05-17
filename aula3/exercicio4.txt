@@ -1,0 +1,4 @@
+O que são as variáveis em uma linguagem de programação?
+R:São espécies de container que podem armazenar dados, e seu conteúdo pode variar
+Dê um exemplo de um tipo de dado e o que este tipo irá representar
+R:O tipo float, que representa um numero decimal.
