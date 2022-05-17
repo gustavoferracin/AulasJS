@@ -1,0 +1,4 @@
+Qual foi a principal finalidade do JS desde a sua criação?
+Na época em que foi criado as paginas da web eram totalmente estáticas, e o JS foi criado para resolver esse problema 
+Qual empresa originou o JS e quando isso aconteceu?
+O JS foi originado pela empresa NetScape, em 1995.

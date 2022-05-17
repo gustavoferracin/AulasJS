@@ -1,0 +1,4 @@
+"O JS é uma linguagem interpretada, portanto irá gerar um código fonte." Isto está correto? Explique.
+R: O JS é uma linguagem interpretada, mas ele não cria um códiog fonte.
+Ainda nos dias de hoje o JS só pode ser usado por meio  de um browser. 
+R: Errado, o browser é utilizado por conta do motor, mas o JS não depende dele.
