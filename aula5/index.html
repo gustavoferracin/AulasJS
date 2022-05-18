@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document e concatenação de strings</title>
+</head>
+<script>
+   // alert("Olá mundo!");  exibe uma mensagem na tela 
+   // prompt("Digite algo");  exibe uma mensagem + um input de texto para o usuário
+   // confirm("Clique em um botão");  exibe uma mensagem + um botão de cancelar e um ok,
+     //se o usuário clicar em cancelar ele será false, se clicar em ok será true.
+    // var nome = prompt("Digite o seu nome!");
+    // var cor = prompt("Qual a sua cor favorita?" + nome);
+
+    // document.write("Nome..." + nome + " <br> ");
+    // document.write("A cor favorita do " + nome +" é "+ cor + " <br> ")
+    // var verdFalso = confirm("Clique em um botão");
+    // if (verdFalso){
+    //     console.log("Você clicou em OK")
+    //     document.write("Você clicou em OK")
+    //     alert("Você clicou mesmo em OK")
+    // }else{
+    //     console.log("Você clicou em cancelar :(")
+    // }
+var opcao = prompt("Digite 1 ou 2 :D");
+console.log(opcao)
+switch(opcao){
+        case '1':
+            var pergunta = confirm("Você pretende continuar a operação?");
+            if (pergunta){
+                alert("Parabéns");  
+            }else{
+                alert("Poxa vida, está aflito?");
+            }
+        break;
+        case '2':
+            var pergunta = confirm("Você é casado?");
+            if(pergunta){
+                var conj = prompt("Qual é o nome do seu conjuge?");
+                alert("Parabéns por ser casado(a) com o(a) " + conj);
+            }
+        break;
+        
+        default: console.log("esta opção não existe")
+        break;
+                    
+}
+</script>
+<style>
+:root{
+    background-color: #616161;
+    color: whitesmoke;
+}
+</style>
+<body>
+    
+</body>
+</html>
