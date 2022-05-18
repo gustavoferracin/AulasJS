@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--Declarações de variáveis e Funções--</title>
+</head>
+<script>
+// var qualquer; -> variável global
+// let qq = "variavel let"; -> também é global
+// const valorConstante = 100; -> global constante
+
+// if(true){
+//     console.log(valorConstante);
+//     var varDentroIf = "Estou dentro do if, sou uma var :D";
+//     let dentroDoIf = "Estou dentro do if, sou uma let :D";
+// }
+
+// valorConstante = 1; -> erro
+// console.log(DentroDoIf)
+
+// literal
+function soma(){
+    console.log(1 + 3);
+}
+
+soma();
+
+function contatenarNome(){
+    var nome = "Gustavo" // local
+    var sobrenome = "Ferracin" // local
+    alert(nome + sobreNome)
+}
+
+function novaConcatenarNome(nome, sobreNome){
+    document.write(nome + " " +sobreNome);
+}
+novaConcatenarNome("Gustavo", "Ferracin");
+
+let semNome = function(){
+    alert("Estou em uma função anônima");
+}
+//semNome()
+
+let funcComPar = function(idade, idadePar){
+    if(idade > idadePar){
+        alert("Você tem idade maior que " + idadePar + " anos")
+    }else{
+        alert("Você tem idade menor que " + idadePar + " anos")
+    }
+}
+
+funcComPar(17,18);
+
+
+</script>
+<body>
+    
+</body>
+</html>
