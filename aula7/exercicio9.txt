@@ -1,0 +1,6 @@
+1. Qual a diferença entre as declarações de variáveis var, let e const?
+R: Declarações var não verificam o escopo em que estão inseridas, já o let sim, e o cont não pode ter uma variação em seu conteúdo.
+2.É verdade que o uso de parametros em funções é obrigatório?
+R: Não
+3.Selecione a opção verdadeira para inserir um arquivo js em um documento HTML:
+C) <script src ="nomeDoArquivo.js"></script>
