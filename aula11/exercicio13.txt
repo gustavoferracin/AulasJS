@@ -1,0 +1,8 @@
+O que o manipulador ou função replace() efetua em uma sting?
+R: Ela substitui um determinado trecho ou letra por outra string
+O que o manipulador ou função sort() efetua em um array?
+R:Ordena os elementos de uma array em uma ordem crescente/alfabética
+É correto dizer que o JS é uma linguagem orientada a objetos?
+R: Não, ele deixou de ser em 2015
+Como podemos definir o operador new?
+R:
