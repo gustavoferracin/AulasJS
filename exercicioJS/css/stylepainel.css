@@ -157,7 +157,7 @@ nav#localizarProduto{
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    border: 1px solid black;
+    border: 2px solid black;
     margin-left: 5%;
     margin-top: 5%;
 }
@@ -185,8 +185,9 @@ nav#localizarProduto > input#btnLancar{
 }
 tr{
     width: 90%;
-    display: flex;
-    justify-content: space-around;
+}
+tr#cima{
+    margin-left: 1.5%;
 }
 table{
     width: 100%;
@@ -198,8 +199,25 @@ p{
     margin-left: 10%;
 }
 section#totalPedido{
-    width: 10%;
-    height: 5vh;
-    justify-self: flex-end;
-    align-self: flex-end;
+    width: 13%;
+    height: auto;
+    color: red;
+    background-color: #616161;
+    margin-left: 85%;
 }
+form > input{
+    background-color: white;
+}
+nav#localizarProduto > input#descProduto, input#precoUnidade{
+    background-color: white;   
+}
+input{
+    border: .3px solid black;  
+}
+#btnLancar{
+    margin-right: 2%;
+}
+td{
+    padding-left: 35px;
+}
+

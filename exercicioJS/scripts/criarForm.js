@@ -1,7 +1,7 @@
-export { criarForm } 
+export { criarForm }
 
-function criarForm(elemento,container){
-    switch(container){
+function criarForm(elemento, container) {
+    switch (container) {
         // clientes
         case 'formClientes':
             let textCli = `<form  id='formpadrao' action="">
@@ -26,22 +26,22 @@ function criarForm(elemento,container){
                 </nav>
             </section>
             </form>`
-         
-        elemento.innerHTML = textCli
-        break;
-    // Produtos    
-    case 'formProdutos': let text = ` 
+
+            elemento.innerHTML = textCli
+            break;
+        // Produtos    
+        case 'formProdutos': let text = ` 
     <form  id='formpadrao' action="">
     <section id="clientesTopSection">
         <h1 class="flex" id="textClientes">Produtos</h1>
         <h1 class='flex'id="xisinho">x</h1>
     </section>
     <legend>Código</legend>
-    <input type="number" name="codigo"  placeholder='Ex: 1,2,3...'id="codigoProduto">
+    <input type="number" name="codigo"  placeholder='Ex: 1,2,3...'id="codigoPro">
     <legend>Descrição</legend>
-    <input id="nomeCli" type="text">
+    <input id="nomePro" type="text">
     <legend>Preço</legend>
-    <input type="number" name="" id="dataProduto">
+    <input type="number" name="" id="precoPro">
     <legend>Quantidade</legend>
     <input type="number" name="" id="quantidadeProduto">
     <section id="botoes" >
@@ -56,30 +56,30 @@ function criarForm(elemento,container){
     </section>
     </form>`
 
-        elemento.innerHTML = text
+            elemento.innerHTML = text
 
-        break;
+            break;
 
-    // Pedidos
-    case 'formPedidos': let texto = `
+        // Pedidos
+        case 'formPedidos': let texto = `
     <form  id='formpadrao' action="">
     <section id="clientesTopSection">
         <h1 class="flex" id="textClientes">Pedidos</h1>
         <h1 class='flex'id="xisinho">x</h1>
     </section>
     <legend>Código do Cliente</legend>
-    <input type="number" name="codigoPedido"  placeholder='Ex: 1,2,3...'id="codigoCli">
+    <input type="text" name="codigoPedido"  value='' placeholder='Ex: 1,2,3...'id="codigoPed">
     <legend>Cliente</legend>
-    <input id="nomeCliPedidos" type="text">
+    <input id="nomeCliPedidos" disabled type="text">
     <nav id="localizarProduto">
-        <input type="number" placeholder="Id" id="idDoProduto">
-        <input type="text" id="descProduto" value='Produto exemplo' disabled>
+        <input type="text" value='' placeholder="Id" id="idDoProduto">
+        <input type="text" id="descProduto" disabled>
         <input type="text" id="precoUnidade" disabled>
-        <input type="number" name="" id="qntdProdutos" >
+        <input type="text" value='' id="qntdProdutos" >
         <input type="button" value="Lançar pedido" id="btnLancar">
     </nav>
     <p>Itens Do pedido</p>
-    <table id="table">
+    <table id=table>
         <thead>
             <tr>
                 <th>Item</th>
@@ -87,17 +87,15 @@ function criarForm(elemento,container){
                 <th>Preço</th>
                 <th>Qntd.</th>
                 <th>Sub total</th>
-            </tr>
         </thead>
-        <tbody>
+        <tbody id=tbody>
 
         </tbody>
     </table>
     <section id="totalPedido"></section>
-    </form>`  
+    </form>`
 
-        elemento.innerHTML = texto
-        break
-    
+            elemento.innerHTML = texto
+            break
     }
 }
